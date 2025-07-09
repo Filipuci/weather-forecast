@@ -45,7 +45,7 @@ cd weather-app
 ```
 3. Abra o index.html no seu navegador.
 
-Ou acesse o projeto online [https://Filipuci.github.io/weather-forecast](https://seu-usuario.github.io/weather-forecast)
+Ou acesse diretamente a [versão online](https://Filipuci.github.io/weather-forecast)
    
 
 ## 🔑 Configuração da API
