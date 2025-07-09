@@ -1,6 +1,6 @@
 # 🌦️ Weather App
 
-Aplicativo simples que consome a API da OpenWeatherMap para exibir as informações climáticas de uma cidade pesquisada.
+Aplicação web que consome a API da OpenWeatherMap para exibir as informações climáticas de uma cidade, estado ou país pesquisados.
 
 ---
 
@@ -8,7 +8,7 @@ Aplicativo simples que consome a API da OpenWeatherMap para exibir as informaç�
 
 - 🔍 Pesquisa pelo nome da cidade.
 - 📍 Exibe:
-  - Nome e país
+  - Nome, estado e país
   - Temperatura atual, mínima e máxima
   - Descrição do clima
   - Um ícone ilustrativo
