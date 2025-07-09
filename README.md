@@ -37,7 +37,7 @@ Aplicação web que consome a API da OpenWeatherMap para exibir as informações
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/weather-app.git
+git clone https://github.com/Filipuci/weather-app.git
 ```
 2. Entre na pasta:
 ```bash
