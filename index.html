@@ -4,23 +4,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Clima</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-  <main>
-    <div class="search-container">
-      <div class="search-group">
-        <label for="location-icon">
-          <i class="fa-solid fa-location-dot location-btn"></i>
-        </label>
-        <input type="text" placeholder="Buscar a cidade" id="location-icon">
-        <i class="fa-solid fa-magnifying-glass search-btn"></i>
+  <main id="container">
+    <section class="search-container">
+      <form id="search-bar" role="search">
+        <button type="submit" class="location-btn" aria-label="Usar a localização atual">
+          <i class="fa-solid fa-location-dot"></i>
+        </button>
+        <input type="text" placeholder="Buscar a cidade">
+        <button type="submit" class="search-btn" aria-label="Buscar cidade">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </section>
+
+    <section class="weather-container">
+      <header class="weather-header">
+        <h2></h2>
+      </header>
+
+      <div class="weather-info">
+        <div class="weather-icon">
+          <img>
+        </div>
+
+        <div class="weather-temperature">
+          <h1></h1>
+          <p></p>
+        </div>
       </div>
+
+      <div class="weather-subinfo">
+        <article class="info-block">
+          <i class="fa-solid fa-temperature-high"></i>
+          <div>
+            <h6>Temp. max</h6>
+            <p id="temp-max"></p>
+          </div>
+        </article>
+
+        <article class="info-block">
+          <i class="fa-solid fa-temperature-low"></i>
+          <div>
+            <h6>Temp. min</h6>
+            <p id="temp-min"></p>
+          </div>
+        </article>
+
+        <article class="info-block">
+          <i class="fa-solid fa-droplet"></i>
+          <div>
+            <h6>Humidade</h6>
+            <p id="humidity"></p>
+          </div>
+        </article>
+
+        <article class="info-block">
+          <i class="fa-solid fa-wind"></i>
+          <div>
+            <h6>Vento</h6>
+            <p id="wind"></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div id="alert-box">
+      <p>Não foi possível encontrar essa localização...</p>
+      <img src="assets/img/undraw_navigation_0q48.svg">
     </div>
   </main>
 </body>
+
+<script src="assets/js/script.js"></script>
 
 </html>
